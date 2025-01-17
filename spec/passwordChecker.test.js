@@ -33,4 +33,10 @@ describe('isPasswordValid should return true for a valid password and false for 
         expect(result).toBe(false);
     });
 
+    it("should return true if the password contains a number", function() {
+        const result = main.containsANumber('abc1');
+        
+        expect(result).toBe(true);
+    });
+
 }); 
