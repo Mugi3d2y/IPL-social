@@ -16,5 +16,15 @@ export class Main {
         }
         return false;
     }
+
+    containsANumber(password) {
+        const numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+        for(let char of password){
+            if(numbers.includes(char)){
+                return true;
+            }
+        }
+        return false;
+    }
     
 }
