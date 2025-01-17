@@ -4,14 +4,16 @@ describe('isPasswordValid should return true for a valid password and false for 
     const main = new Main();
 
     it('should return false if the number of characters is < 8', function() {
-        const result = main.isPasswordValid('1234567');
+        const result = main.isNumberOfCharactersUpperThan7('1234567');
 
         expect(result).toBe(false);
     });
 
     it('should return true if the number of characters is >= 8', function() {
-        const result = main.isPasswordValid('12345678');
+        const result = main.isNumberOfCharactersUpperThan7('12345678');
 
         expect(result).toBe(true);
     });
+
+    it("should return false if password contains not ")
 }); 

@@ -1,6 +1,6 @@
 export class Main {
 
-    isPasswordValid(password) {
+    isNumberOfCharactersUpperThan7(password) {
         if(password.length < 8) {
             return false;
         }
