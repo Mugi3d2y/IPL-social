@@ -13,8 +13,8 @@ export class Main {
             if(specialCharacters.includes(char)){
                 return true;
             }
-            return false;
         }
+        return false;
     }
     
 }
