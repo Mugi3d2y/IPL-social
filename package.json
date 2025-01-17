@@ -1,0 +1,26 @@
+{
+  "name": "ipl-social-1",
+  "version": "1.0.0",
+  "description": "Yaou Addou Marouan",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "password": "node .\\src\\password.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mugi3d2y/IPL-social.git"
+  },
+  "author": "Yaou Addou Marouan",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^5.5.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Mugi3d2y/IPL-social/issues"
+  },
+  "homepage": "https://github.com/Mugi3d2y/IPL-social#readme",
+  "dependencies": {
+    "init": "^0.1.2"
+  }
+}
