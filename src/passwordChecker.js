@@ -6,5 +6,15 @@ export class Main {
         }
         return true;
     }
+
+    containsSpecialCharater(password) {
+        const specialCharacters = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '+', '='];
+        for(let char of password){
+            if(specialCharacters.includes(char)){
+                return true;
+            }
+            return false;
+        }
+    }
     
 }

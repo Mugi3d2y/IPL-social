@@ -15,5 +15,11 @@ describe('isPasswordValid should return true for a valid password and false for 
         expect(result).toBe(true);
     });
 
-    it("should return false if password contains not ")
+    it("should return false if password contains not special character", function() {
+        const result = main.containsSpecialCharater('123');
+
+        expect(result).toBe(false);
+    });
+
+    
 }); 
