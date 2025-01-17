@@ -32,7 +32,10 @@ export class Main {
     }
 
     isPasswordValid(password){
-        return this.isNumberOfCharactersUpperThan7(password) && this.containsSpecialCharater(password) && this.containsANumber(password) && this.containsIPL(password);
+        if(this.isNumberOfCharactersUpperThan7(password) && this.containsSpecialCharater(password) && this.containsANumber(password) && !this.containsIPL(password)){
+            return true;
+        }
+        return false;
     }
     
 }

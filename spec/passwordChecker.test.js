@@ -58,4 +58,10 @@ describe('isPasswordValid should return true for a valid password and false for 
         
         expect(result).toBe(false);
     });
+
+    it("should return true if the password is valid ", function() {
+        const result = main.isPasswordValid('abc1IP@x');
+        
+        expect(result).toBe(true);
+    });
 }); 
