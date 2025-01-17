@@ -30,5 +30,9 @@ export class Main {
     containsIPL(password){
         return password.toLowerCase().includes('ipl');
     }
+
+    isPasswordValid(password){
+        return this.isNumberOfCharactersUpperThan7(password) && this.containsSpecialCharater(password) && this.containsANumber(password) && this.containsIPL(password);
+    }
     
 }
