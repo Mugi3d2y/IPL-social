@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Yaou Addou Marouan",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jasmine",
     "password": "node .\\src\\password.js"
