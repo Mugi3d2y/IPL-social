@@ -26,5 +26,9 @@ export class Main {
         }
         return false;
     }
+
+    containsIPL(password){
+        return password.toLowerCase().includes('ipl');
+    }
     
 }
